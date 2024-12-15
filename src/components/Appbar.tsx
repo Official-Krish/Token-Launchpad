@@ -15,6 +15,7 @@ export default function Appbar() {
                     <div className="hidden lg:flex items-center justify-center gap-3">
                         <a href='' target='_blank' className='rounded cursor-pointer transition-transform transform active:scale-95 hover:bg-white/30 px-5 py-2 backdrop-blur-lg backdrop-saturate-150 shadow-lg border border-[#434348]'> Wallet</a>
                         <button type='button' onClick={() => navigate('/swap')} className='rounded cursor-pointer transition-transform transform active:scale-95 hover:bg-white/30 px-5 py-2 backdrop-blur-lg backdrop-saturate-150 shadow-lg border border-[#434348]'>Swap</button>
+                        <button type='button' onClick={() => navigate('/stake')} className='rounded cursor-pointer transition-transform transform active:scale-95 hover:bg-white/30 px-5 py-2 backdrop-blur-lg backdrop-saturate-150 shadow-lg border border-[#434348]'>Stake</button>
                     </div>
                 </div>
                 <div className="flex items-center justify-end gap-2">

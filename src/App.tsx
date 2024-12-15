@@ -9,6 +9,7 @@ import { Home } from './pages/Hero';
 import Footer from './components/Footer';
 import Appbar from './components/Appbar';
 import Swap from './pages/Swap';
+import SolanaStaking from './pages/Stake';
 
 function App() {
   const network = 'devnet'
@@ -27,6 +28,7 @@ function App() {
                     <Routes>
                       <Route path='/' element={<Home />} />
                       <Route path='/swap' element={<Swap />} />
+                      <Route path='/stake' element={<SolanaStaking />} />
                     </Routes>
                   </main>
                   <Footer />
